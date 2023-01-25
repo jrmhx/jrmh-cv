@@ -26,7 +26,7 @@ const ContactValueMap: Record<ContactType, ContactValue> = {
 const Contact: FC = memo(() => {
   const {headerText, description, items} = contact;
   return (
-    <Section className="bg-neutral-800" sectionId={SectionId.Contact}>
+    <Section className="gradient-bg" sectionId={SectionId.Contact}>
       <div className="flex flex-col gap-y-6">
         <div className="flex flex-col gap-6 md:flex-row md:items-center">
           <MailIcon className="hidden h-16 w-16 text-white md:block" />
@@ -47,7 +47,7 @@ const Contact: FC = memo(() => {
                     <dd className="flex items-center">
                       <a
                         className={classNames(
-                          '-m-2 flex rounded-md p-2 text-neutral-300 hover:text-orange-500 focus:outline-none focus:ring-2 focus:ring-orange-500',
+                          '-m-2 flex rounded-md p-2 text-neutral-300 hover:text-violet-600 focus:outline-none focus:ring-2 focus:ring-violet-600',
                           {'hover:text-white': href},
                         )}
                         href={href}

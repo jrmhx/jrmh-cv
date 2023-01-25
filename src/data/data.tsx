@@ -44,8 +44,8 @@ import {
  * Page meta data
  */
 export const homePageMeta: HomepageMeta = {
-  title: 'React Resume Template',
-  description: "Example site built with Tim Baker's react resume template",
+  title: 'Jeremiah Personal Page',
+  description: "This is a personal page about Jeremiah Hsing",
 };
 
 /**
@@ -69,18 +69,18 @@ export type SectionId = typeof SectionId[keyof typeof SectionId];
  */
 export const heroData: Hero = {
   imageSrc: heroImage,
-  name: `I'm Tim Baker.`,
+  name: `I'm Jeremiah Hsing.`,
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Victoria based <strong className="text-stone-100">Full Stack Software Engineer</strong>, currently working
-        at <strong className="text-stone-100">Instant Domains</strong> helping build a modern, mobile-first, domain
-        registrar and site builder.
+        I'm a Canberra based <strong className="text-stone-100">Advanced Computing Undergraduate Student</strong>, currently in my honors year
+        at <strong className="text-stone-100">ANU</strong> 
       </p>
+      {/* helping build a modern, mobile-first, domain registrar and site builder. */}
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me training in <strong className="text-stone-100">Muay Thai</strong>,
-        plucking my <strong className="text-stone-100">banjo</strong>, or exploring beautiful{' '}
-        <strong className="text-stone-100">Vancouver Island</strong>.
+        In my free time, you can catch me training in <strong className="text-stone-100">tennis</strong>,
+        chilling on <strong className="text-stone-100">billiards</strong>, or exploring beautiful{' '}
+        <strong className="text-stone-100">Ngunnawal and Ngambri</strong>.
       </p>
     </>
   ),
@@ -108,12 +108,12 @@ export const aboutData: About = {
   to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
   in.`,
   aboutItems: [
-    {label: 'Location', text: 'Victoria, BC', Icon: MapIcon},
-    {label: 'Age', text: '29', Icon: CalendarIcon},
-    {label: 'Nationality', text: 'Canadian / Irish', Icon: FlagIcon},
-    {label: 'Interests', text: 'Motorcycles, Muay Thai, Banjos', Icon: SparklesIcon},
-    {label: 'Study', text: 'University of Victoria', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'Instant Domains, inc.', Icon: OfficeBuildingIcon},
+    {label: 'Location', text: 'Canberra, Aus', Icon: MapIcon},
+    {label: 'Age', text: `${new Date().getFullYear() - 2002}`, Icon: CalendarIcon},
+    // {label: 'Nationality', text: 'Canadian / Irish', Icon: FlagIcon},
+    {label: 'Interests', text: 'Pooling, Muay Thai, Tennis', Icon: SparklesIcon},
+    {label: 'Study', text: 'Australian National University', Icon: AcademicCapIcon},
+    {label: 'Employment', text: 'Open to work', Icon: OfficeBuildingIcon},
   ],
 };
 
@@ -126,14 +126,14 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'English',
-        level: 10,
+        level: 8,
       },
       {
-        name: 'French',
-        level: 4,
+        name: 'Mandarin',
+        level: 9,
       },
       {
-        name: 'Spanish',
+        name: 'German',
         level: 3,
       },
     ],
@@ -163,11 +163,11 @@ export const skills: SkillGroup[] = [
         level: 8,
       },
       {
-        name: 'Rust',
+        name: 'C++',
         level: 5,
       },
       {
-        name: 'Golang',
+        name: 'Java',
         level: 4,
       },
     ],
@@ -340,23 +340,23 @@ export const contact: ContactSection = {
   items: [
     {
       type: ContactType.Email,
-      text: 'reachout@timbaker.me',
-      href: 'mailto:reachout@timbaker.me',
+      text: 'jeremiah.hsing@gmail.com',
+      href: 'mailto:jeremiah.hsing@gmail.com',
     },
     {
       type: ContactType.Location,
-      text: 'Victoria BC, Canada',
-      href: 'https://www.google.ca/maps/place/Victoria,+BC/@48.4262362,-123.376775,14z',
+      text: 'Canberra ACT, Australia',
+      href: 'https://www.google.com/maps/place/Canberra+ACT+2601/@-35.2842178,149.1191194,15.23z',
     },
     {
       type: ContactType.Instagram,
-      text: '@tbakerx',
-      href: 'https://www.instagram.com/tbakerx/',
+      text: '@jez_hsing',
+      href: 'https://www.instagram.com/jez_hsing/',
     },
     {
       type: ContactType.Github,
-      text: 'tbakerx',
-      href: 'https://github.com/tbakerx',
+      text: 'Jeremiah Hsing',
+      href: 'https://github.com/JeremiahXing',
     },
   ],
 };
@@ -365,9 +365,9 @@ export const contact: ContactSection = {
  * Social items
  */
 export const socialLinks: Social[] = [
-  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/tbakerx'},
-  {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
-  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/timbakerx/'},
-  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/tbakerx/'},
-  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/TimBakerx'},
+  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/JeremiahXing'},
+  // {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
+  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/jeremiahhsing/'},
+  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/jez_hsing/'},
+  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/jez_hsing'},
 ];
