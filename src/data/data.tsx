@@ -203,68 +203,68 @@ export const skills: SkillGroup[] = [
 export const portfolioItems: PortfolioItem[] = [
   {
     title: 'Project title 1',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    description: 'To be determined...',
+    url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley',
     image: porfolioImage1,
   },
   {
     title: 'Project title 2',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    description: 'To be determined...',
+    url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley',
     image: porfolioImage2,
   },
   {
     title: 'Project title 3',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    description: 'To be determined...',
+    url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley',
     image: porfolioImage3,
   },
   {
     title: 'Project title 4',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    description: 'To be determined...',
+    url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley',
     image: porfolioImage4,
   },
   {
     title: 'Project title 5',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    description: 'To be determined...',
+    url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley',
     image: porfolioImage5,
   },
   {
     title: 'Project title 6',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    description: 'To be determined...',
+    url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley',
     image: porfolioImage6,
   },
   {
     title: 'Project title 7',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    description: 'To be determined...',
+    url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley',
     image: porfolioImage7,
   },
   {
     title: 'Project title 8',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    description: 'To be determined...',
+    url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley',
     image: porfolioImage8,
   },
   {
     title: 'Project title 9',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    description: 'To be determined...',
+    url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley',
     image: porfolioImage9,
   },
   {
     title: 'Project title 10',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    description: 'To be determined...',
+    url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley',
     image: porfolioImage10,
   },
   {
     title: 'Project title 11',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    description: 'To be determined...',
+    url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley',
     image: porfolioImage11,
   },
 ];
@@ -282,9 +282,9 @@ export const education: TimelineItem[] = [
       </p>,
   },
   {
-    date: 'March 2003',
+    date: 'March 2013',
     location: 'School of Business',
-    title: 'What did you study 101',
+    title: 'How to Make Fried Rice 101',
     content: <p>
       Lorem ipsum dolor sit amet. Aut modi eaque non ipsam consectetur nam minima 
       labore est porro totam est atque repellat. Est iste dolorem et Quis galisum est
@@ -297,7 +297,7 @@ export const education: TimelineItem[] = [
 
 export const experience: TimelineItem[] = [
   {
-    date: 'March 2022 - Present',
+    date: 'March 2018 - Present',
     location: 'Awesome Development Company',
     title: 'Senior Software Engineer',
     content: (
@@ -309,15 +309,63 @@ export const experience: TimelineItem[] = [
     ),
   },
   {
-    date: 'March 2012 - February 2022',
+    date: 'March 2015 - February 2018',
     location: 'Garage Startup Studio',
-    title: 'Junior Bug Maker',
+    title: 'Junior Bug Fixer',
     content: (
       <p>
         Et vitae quasi aut dicta voluptas a alias neque aut saepe aliquam. 
         Sed aspernatur unde et dolores enim et exercitationem repellendus ut iste 
         nulla qui expedita aliquid vel magni alias At repellat illo. 
         Est officiis illo id nostrum iste non autem enim.
+      </p>
+    ),
+  },
+  {
+    date: 'May 2013 - Present',
+    location: 'Netflix, Los Gatos, California, US',
+    title: 'Account Manager',
+    content: (
+      <p>
+        Responsible for managing (and paying for) accounts shared by 5 globally distributed family members.
+        Exceeded market benchmarks by typing passwords using Roku remote at 481% accuracy or more significance.
+        Multi-year recipient of suggestions for movies I've already watched.
+      </p>
+    ),
+  },
+  {
+    date: 'April 2011 - Present',
+    location: 'Apple Inc. Cupertino, California, US',
+    title: 'Uncertified Genius',
+    content: (
+      <p>
+        Led remote tech support for older family members throughout the country.
+        Maintained Siri comprehension rate of over 55% for three consecutive years.
+        Once put off a software update for over 8 months.
+      </p>
+    ),
+  },
+  {
+    date: 'Augest 2009 - Present',
+    location: 'Amazon, Seattle, Washington, US',
+    title: 'Prime Member',
+    content: (
+      <p>
+        Increased order volume by 823% over 7 years
+        Researched diverse product catalog, spanning departments from Simplehuman bag liners to cat food.
+        Regularly reported on product quality using review portal.
+      </p>
+    ),
+  },
+  {
+    date: 'March 2002 - Present',
+    location: 'Facebook, Menlo Park, California, US',
+    title: 'Senior Advertising Target',
+    content: (
+      <p>
+        Recruited as early user for my experience with having an @edu email address.
+        Received a "Facebook Beanie" award for performance in 2006 March Madness bracket.
+        Consistently retargeted by F500 brands such as Samsung, Proctor & Gamble, and Verizon.
       </p>
     ),
   },
@@ -330,19 +378,19 @@ export const testimonial: TestimonialSection = {
   imageSrc: testimonialImage,
   testimonials: [
     {
-      name: 'John Doe',
-      text: 'Use this as an opportunity to promote what it is like to work with you. High value testimonials include ones from current or past co-workers, managers, or from happy clients.',
+      name: 'Satoshi Catamoto',
+      text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ',
+      image: 'https://cdn.commercialandlegal-legalservices.com.au/wp-content/uploads/2018/03/Unknown-Person-Image-1-e1562653526174.png',
+    },
+    {
+      name: 'Trevor Philips',
+      text: 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/116.jpg',
+    },
+    {
+      name: 'Ms. Unknown',
+      text: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
       image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/169.jpg',
-    },
-    {
-      name: 'Jane Doe',
-      text: 'Here you should write some nice things that someone has said about you. Encourage them to be specific and include important details (notes about a project you were on together, impressive quality produced, etc).',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/14.jpg',
-    },
-    {
-      name: 'Someone else',
-      text: 'Add several of these, and keep them as fresh as possible, but be sure to focus on quality testimonials with strong highlights of your skills/work ethic.',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/69.jpg',
     },
   ],
 };
