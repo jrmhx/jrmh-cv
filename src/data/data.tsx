@@ -2,7 +2,7 @@ import {
   AcademicCapIcon,
   CalendarIcon,
   DownloadIcon,
-  FlagIcon,
+  // FlagIcon,
   MapIcon,
   OfficeBuildingIcon,
   SparklesIcon,
@@ -11,7 +11,7 @@ import {
 import GithubIcon from '../components/Icon/GithubIcon';
 import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
-import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
+// import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
 import TwitterIcon from '../components/Icon/TwitterIcon';
 import heroImage from '../images/header-background.webp';
 import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
@@ -44,8 +44,8 @@ import {
  * Page meta data
  */
 export const homePageMeta: HomepageMeta = {
-  title: 'Jeremiah Personal Page',
-  description: "This is a personal page about Jeremiah Hsing",
+  title: 'I\'m Jeremiah Hsing',
+  description: "This is a personal page about Jeremiah Hsing.",
 };
 
 /**
@@ -104,14 +104,16 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Use this bio section as your way of describing yourself and saying what you do, what technologies you like
-  to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
-  in.`,
+  description: `I'm an Aus-based undergraduate student,
+          coder, and knowledge seeker dedicated to learning,
+          building, and evangelizing technologies, systems, 
+          and movements that generate hyperlocal resilience,
+          self-sustainability, and dynamism.`,
   aboutItems: [
-    {label: 'Location', text: 'Canberra, Aus', Icon: MapIcon},
+    {label: 'Location', text: 'Canberra, AU', Icon: MapIcon},
     {label: 'Age', text: `${new Date().getFullYear() - 2002}`, Icon: CalendarIcon},
     // {label: 'Nationality', text: 'Canadian / Irish', Icon: FlagIcon},
-    {label: 'Interests', text: 'Pooling, Muay Thai, Tennis', Icon: SparklesIcon},
+    {label: 'Interests', text: 'Pooling, Tennis', Icon: SparklesIcon},
     {label: 'Study', text: 'Australian National University', Icon: AcademicCapIcon},
     {label: 'Employment', text: 'Open to work', Icon: OfficeBuildingIcon},
   ],
@@ -122,36 +124,36 @@ export const aboutData: About = {
  */
 export const skills: SkillGroup[] = [
   {
-    name: 'Spoken languages',
-    skills: [
-      {
-        name: 'English',
-        level: 8,
-      },
-      {
-        name: 'Mandarin',
-        level: 9,
-      },
-      {
-        name: 'German',
-        level: 3,
-      },
-    ],
-  },
-  {
     name: 'Frontend development',
     skills: [
-      {
-        name: 'React',
-        level: 9,
-      },
       {
         name: 'Typescript',
         level: 7,
       },
       {
-        name: 'GraphQL',
+        name: 'React',
+        level: 9,
+      },
+      {
+        name: 'Tailwind',
         level: 6,
+      },
+    ],
+  },
+  {
+    name: 'CI/CD',
+    skills: [
+      {
+        name: 'AWS',
+        level: 7,
+      },
+      {
+        name: 'Git',
+        level: 9,
+      },
+      {
+        name: 'Docker',
+        level: 5,
       },
     ],
   },
@@ -163,12 +165,16 @@ export const skills: SkillGroup[] = [
         level: 8,
       },
       {
+        name: 'Python',
+        level: 7,
+      },
+      {
         name: 'C++',
-        level: 5,
+        level: 6,
       },
       {
         name: 'Java',
-        level: 4,
+        level: 5,
       },
     ],
   },
@@ -181,7 +187,7 @@ export const skills: SkillGroup[] = [
       },
       {
         name: 'Flutter',
-        level: 4,
+        level: 2,
       },
       {
         name: 'Swift',
@@ -268,39 +274,50 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
-    date: 'April 2007',
-    location: 'Clown college',
-    title: 'Masters in Beer tasting',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    date: 'July 2022 - Present',
+    location: 'Australian National University',
+    title: 'Bachelor of Advanced Computing (Honors)',
+    content: <p>
+      Specialized in system and architecture, with a focus on web developing.
+      </p>,
   },
   {
     date: 'March 2003',
     location: 'School of Business',
     title: 'What did you study 101',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    content: <p>
+      Lorem ipsum dolor sit amet. Aut modi eaque non ipsam consectetur nam minima 
+      labore est porro totam est atque repellat. Est iste dolorem et Quis galisum est
+      repudiandae aspernatur aut doloribus ipsam ut distinctio tempora At molestias 
+      laboriosam id voluptatem quia. Est sunt sequi cum corrupti sunt et nesciunt molestiae 
+      et officiis dolore!
+    </p>,
   },
 ];
 
 export const experience: TimelineItem[] = [
   {
-    date: 'March 2010 - Present',
+    date: 'March 2022 - Present',
     location: 'Awesome Development Company',
-    title: 'Senior UX Engineer',
+    title: 'Senior Software Engineer',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        In sapiente modi vel quasi autem eos consectetur laboriosam! 
+        Est atque dolorem ut praesentium doloribus et facere facere non consequatur 
+        consequatur.
       </p>
     ),
   },
   {
-    date: 'March 2007 - February 2010',
+    date: 'March 2012 - February 2022',
     location: 'Garage Startup Studio',
-    title: 'Junior bug fixer',
+    title: 'Junior Bug Maker',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        Et vitae quasi aut dicta voluptas a alias neque aut saepe aliquam. 
+        Sed aspernatur unde et dolores enim et exercitationem repellendus ut iste 
+        nulla qui expedita aliquid vel magni alias At repellat illo. 
+        Est officiis illo id nostrum iste non autem enim.
       </p>
     ),
   },
@@ -336,7 +353,7 @@ export const testimonial: TestimonialSection = {
 
 export const contact: ContactSection = {
   headerText: 'Get in touch.',
-  description: 'Here is a good spot for a message to your readers to let them know how best to reach out to you.',
+  description: 'Share any details about your ideas, or any other information you would like to share with potential clients/employees/partners/friends.',
   items: [
     {
       type: ContactType.Email,
