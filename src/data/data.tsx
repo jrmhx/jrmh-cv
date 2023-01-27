@@ -79,8 +79,8 @@ export const heroData: Hero = {
       {/* helping build a modern, mobile-first, domain registrar and site builder. */}
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         In my free time, you can catch me training in <strong className="text-stone-100">tennis</strong>,
-        chilling on <strong className="text-stone-100">billiards</strong>, or exploring beautiful{' '}
-        <strong className="text-stone-100">Ngunnawal and Ngambri</strong>.
+        chilling on <strong className="text-stone-100">billiards</strong>, or exploring beautiful indigenous{' '}
+        <strong className="text-stone-100">Ngunnawal and Ngambri</strong> land.
       </p>
     </>
   ),
