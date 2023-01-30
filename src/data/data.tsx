@@ -104,11 +104,13 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `I'm an Aus-based undergraduate student,
-          coder, and knowledge seeker dedicated to learning,
-          building, and evangelizing technologies, systems, 
-          and movements that generate hyperlocal resilience,
-          self-sustainability, and dynamism.`,
+  description: `As a coder and knowledge seeker, I am eager to pursue opportunities in 
+  software engineering. My passion lies in exploring cutting-edge technologies, 
+  particularly blockchain, and using them to create solutions that promote 
+  hyperlocal resilience, self-sustainability, and dynamism. I am a dedicated learner 
+  who seeks to expand my skill set and deepen my understanding of these exciting fields. 
+  Additionally, I am committed to building and sharing my knowledge with others through 
+  evangelizing these technologies, systems, and movements.`,
   aboutItems: [
     {label: 'Location', text: 'Canberra, AU', Icon: MapIcon},
     {label: 'Age', text: `${new Date().getFullYear() - 2002}`, Icon: CalendarIcon},
