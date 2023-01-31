@@ -1,8 +1,15 @@
 /* eslint-env node */
+const dotenv = require('dotenv');
+const webpack = require('webpack');
+const { parsed: myEnv} = dotenv.config({ path: './.env' });
+
+
 
 // https://github.com/vercel/next.js/blob/master/packages/next/next-server/server/config.ts
 const nextConfig = {
   webpack: config => {
+    config.plugins.push(new webpack.EnvironmentPlugin(myEnv));
+
     const oneOfRule = config.module.rules.find(rule => rule.oneOf);
 
     // Next 12 has multiple TS loaders, and we need to update all of them.
