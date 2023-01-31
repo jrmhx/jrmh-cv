@@ -1,9 +1,6 @@
 /* eslint-env node */
-const dotenv = require('dotenv');
+const { parsed: myEnv } = require('dotenv').config({ path: './.env' });
 const webpack = require('webpack');
-const { parsed: myEnv} = dotenv.config({ path: './.env' });
-
-
 
 // https://github.com/vercel/next.js/blob/master/packages/next/next-server/server/config.ts
 const nextConfig = {
