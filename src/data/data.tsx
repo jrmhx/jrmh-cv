@@ -87,9 +87,9 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `👨‍🎓 Bachelor of Advanced Computing (Hons) at ANU, graduate in June 2024 \n
-                🧑‍💻 Casual Software Engineer @ ANU \n
-                ♨️  Always down to build scalable, efficient, and secure applications. \n
+  description: `👨‍🎓 Bachelor of Advanced Computing (Hons) at ANU, graduate in June 2024; \n
+                🧑‍💻 Casual Software Engineer at ANU; \n
+                ♨️  Always down to build scalable, efficient, and secure applications; \n
                 💭 Love to share knowledge and contribute to the tech community's growth.`,
   aboutItems: [
     {label: 'Location', text: 'Canberra, AU', Icon: MapIcon},
