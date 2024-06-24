@@ -1,30 +1,20 @@
 import {
-  AcademicCapIcon,
-  CalendarIcon,
-  DownloadIcon,
+  // AcademicCapIcon,
+  // CalendarIcon,
+  // DownloadIcon,
   // FlagIcon,
   MapIcon,
   OfficeBuildingIcon,
-  SparklesIcon,
+  // SparklesIcon,
 } from '@heroicons/react/outline';
 
 import GithubIcon from '../components/Icon/GithubIcon';
-import InstagramIcon from '../components/Icon/InstagramIcon';
+// import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 // import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
-import TwitterIcon from '../components/Icon/TwitterIcon';
+// import TwitterIcon from '../components/Icon/TwitterIcon';
 import heroImage from '../images/header-background.webp';
 import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
-import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
-import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
-import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
-import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
-import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
-import porfolioImage7 from '../images/portfolio/portfolio-7.jpg';
-import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
-import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
-import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
-import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
 import profilepic from '../images/profilepic.jpg';
 import testimonialImage from '../images/testimonial.webp';
 import {
@@ -44,8 +34,8 @@ import {
  * Page meta data
  */
 export const homePageMeta: HomepageMeta = {
-  title: 'I\'m Jeremiah Hsing',
-  description: "This is a personal page about Jeremiah Hsing.",
+  title: 'I\'m Jeremiah Xing',
+  description: "This is a personal page about Jeremiah Xing.",
 };
 
 /**
@@ -69,31 +59,24 @@ export type SectionId = typeof SectionId[keyof typeof SectionId];
  */
 export const heroData: Hero = {
   imageSrc: heroImage,
-  name: `I'm Jeremiah Hsing.`,
+  name: `I'm Jeremiah Xing.`,
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Canberra based <strong className="text-stone-100">Advanced Computing Undergraduate Student</strong>, currently in my honors year
-        at <strong className="text-stone-100">ANU</strong> 
-      </p>
-      {/* helping build a modern, mobile-first, domain registrar and site builder. */}
-      <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time, you can catch me training in <strong className="text-stone-100">tennis</strong>,
-        chilling on <strong className="text-stone-100">billiards</strong>, or exploring beautiful indigenous{' '}
-        <strong className="text-stone-100">Ngunnawal and Ngambri</strong> land.
+        I'm a Canberra based Software Enginee.
       </p>
     </>
   ),
   actions: [
-    {
-      href: '/assets/resume.pdf',
-      text: 'Resume',
-      primary: true,
-      Icon: DownloadIcon,
-    },
+    // {
+    //   href: '/assets/resume.pdf',
+    //   text: 'Resume',
+    //   primary: true,
+    //   Icon: DownloadIcon,
+    // },
     {
       href: `#${SectionId.Contact}`,
-      text: 'Contact',
+      text: 'Request a Resume',
       primary: false,
     },
   ],
@@ -104,19 +87,16 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `As a coder and knowledge seeker, I am eager to pursue opportunities in 
-  software engineering. My passion lies in exploring cutting-edge technologies, 
-  particularly blockchain, and using them to create solutions that promote 
-  hyperlocal resilience, self-sustainability, and dynamism. I am a dedicated learner 
-  who seeks to expand my skill set and deepen my understanding of these exciting fields. 
-  Additionally, I am committed to building and sharing my knowledge with others through 
-  evangelizing these technologies, systems, and movements.`,
+  description: `👨‍🎓 Bachelor of Advanced Computing (Hons) ANU 24' June \n
+                🧑‍💻 Casual Software Engineer @ ANU \n
+                ♨️  Always down to build scalable, efficient, and secure applications. \n
+                💭 Love to share knowledge and contribute to the tech community's growth.`,
   aboutItems: [
     {label: 'Location', text: 'Canberra, AU', Icon: MapIcon},
-    {label: 'Age', text: `${new Date().getFullYear() - 2002}`, Icon: CalendarIcon},
+    // {label: 'Age', text: `${new Date().getFullYear() - 2002}`, Icon: CalendarIcon},
     // {label: 'Nationality', text: 'Canadian / Irish', Icon: FlagIcon},
-    {label: 'Interests', text: 'Pooling, Tennis', Icon: SparklesIcon},
-    {label: 'Study', text: 'Australian National University', Icon: AcademicCapIcon},
+    // {label: 'Interests', text: 'Pooling, Tennis', Icon: SparklesIcon},
+    // {label: 'Study', text: 'Australian National University', Icon: AcademicCapIcon},
     {label: 'Employment', text: 'Open to work', Icon: OfficeBuildingIcon},
   ],
 };
@@ -126,149 +106,110 @@ export const aboutData: About = {
  */
 export const skills: SkillGroup[] = [
   {
-    name: 'Frontend development',
+    name: 'Backend',
     skills: [
       {
-        name: 'Typescript',
-        level: 7,
+        name: 'Java',
+        level: 9.5,
       },
       {
-        name: 'React',
-        level: 9,
+        name: 'C/C++',
+        level: 7.5,
       },
       {
-        name: 'Tailwind',
-        level: 6,
+        name: 'Golang',
+        level: 7.5,
       },
-    ],
-  },
-  {
-    name: 'CI/CD',
-    skills: [
-      {
-        name: 'AWS',
-        level: 7,
-      },
-      {
-        name: 'Git',
-        level: 9,
-      },
-      {
-        name: 'Docker',
-        level: 5,
-      },
-    ],
-  },
-  {
-    name: 'Backend development',
-    skills: [
       {
         name: 'Node.js',
-        level: 8,
+        level: 8.3,
       },
       {
         name: 'Python',
-        level: 7,
+        level: 9.2,
       },
       {
-        name: 'C++',
-        level: 6,
+        name: 'Shell',
+        level: 8.5,
       },
       {
-        name: 'Java',
-        level: 5,
+        name: 'Spring Boot',
+        level: 8.8,
+      },
+      {
+        name: 'Spring Cloud',
+        level: 8.5,
       },
     ],
   },
   {
-    name: 'Mobile development',
+    name: 'Frontend',
     skills: [
       {
-        name: 'React Native',
-        level: 9,
+        name: 'React',
+        level: 8,
       },
       {
-        name: 'Flutter',
-        level: 2,
+        name: 'Next.js',
+        level: 8,
       },
       {
-        name: 'Swift',
-        level: 3,
+        name: 'Typescript',
+        level: 7.9,
+      },
+    ],
+  },
+  {
+    name: 'DevOps',
+    skills: [
+      {
+        name: 'Docker',
+        level: 9.3,
+      },
+      {
+        name: 'Kubernetes',
+        level: 6.5,
+      },
+      {
+        name: 'GCP',
+        level: 7.2,
+      },
+    ],
+  },
+  {
+    name: 'Databases & APIs',
+    skills: [
+      {
+        name: 'PostgreSQL',
+        level: 9.5,
+      },
+      {
+        name: 'GraphQL API',
+        level: 6.5,
+      },
+      {
+        name: 'RESTful API',
+        level: 8.7,
+      },
+      {
+        name: 'Microservices',
+        level: 7.9,
       },
     ],
   },
 ];
+
 
 /**
  * Portfolio section
  */
 export const portfolioItems: PortfolioItem[] = [
   {
-    title: 'Project title 1',
-    description: 'To be determined...',
-    url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley',
-    image: porfolioImage1,
-  },
-  {
-    title: 'Project title 2',
-    description: 'To be determined...',
-    url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley',
-    image: porfolioImage2,
-  },
-  {
-    title: 'Project title 3',
-    description: 'To be determined...',
-    url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley',
-    image: porfolioImage3,
-  },
-  {
-    title: 'Project title 4',
-    description: 'To be determined...',
-    url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley',
-    image: porfolioImage4,
-  },
-  {
-    title: 'Project title 5',
-    description: 'To be determined...',
-    url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley',
-    image: porfolioImage5,
-  },
-  {
-    title: 'Project title 6',
-    description: 'To be determined...',
-    url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley',
-    image: porfolioImage6,
-  },
-  {
-    title: 'Project title 7',
-    description: 'To be determined...',
-    url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley',
-    image: porfolioImage7,
-  },
-  {
-    title: 'Project title 8',
-    description: 'To be determined...',
-    url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley',
-    image: porfolioImage8,
-  },
-  {
-    title: 'Project title 9',
-    description: 'To be determined...',
-    url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley',
-    image: porfolioImage9,
-  },
-  {
-    title: 'Project title 10',
-    description: 'To be determined...',
-    url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley',
-    image: porfolioImage10,
-  },
-  {
-    title: 'Project title 11',
-    description: 'To be determined...',
-    url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley',
-    image: porfolioImage11,
-  },
+    title: 'Microservices Backend for Online Shopping Site',
+    description: 'Developing a robust backend for an online shopping platform using Java and Spring Cloud.',
+    url: 'https://github.com/jrmhx/th-services',
+    image: porfolioImage1
+  }
 ];
 
 /**
@@ -276,102 +217,83 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
-    date: 'July 2022 - Present',
+    date: 'July 2022 - June 2024',
     location: 'Australian National University',
     title: 'Bachelor of Advanced Computing (Honors)',
-    content: <p>
-      Specialized in system and architecture, with a focus on web developing.
-      </p>,
+    content: (
+      <p>
+        GPA: 6.25/7.0 <br/>
+        Systems and Architectures Specialization <br/>
+        Relevant Coursework: Computer Networks, Parallel Systems, Algorithms, Concurrency & Networking, Data Analysis
+      </p>
+    ),
   },
   {
-    date: 'March 2013',
-    location: 'School of Business',
-    title: 'How to Make Fried Rice 101',
-    content: <p>
-      Lorem ipsum dolor sit amet. Aut modi eaque non ipsam consectetur nam minima 
-      labore est porro totam est atque repellat. Est iste dolorem et Quis galisum est
-      repudiandae aspernatur aut doloribus ipsam ut distinctio tempora At molestias 
-      laboriosam id voluptatem quia. Est sunt sequi cum corrupti sunt et nesciunt molestiae 
-      et officiis dolore!
-    </p>,
+    date: 'Sep 2020 - June 2022',
+    location: 'Shandong University',
+    title: 'Bachelor of Computer Science',
+    content: (
+      <p>
+        WAM: 85/100 <br/>
+        Relevant Coursework: Data Structure, Relational Databases, Software Engineering, Computer Architecture
+      </p>
+    ),
   },
 ];
 
+
 export const experience: TimelineItem[] = [
   {
-    date: 'March 2018 - Present',
-    location: 'Awesome Development Company',
-    title: 'Senior Software Engineer',
+    date: 'Mar 2024 – Present',
+    location: 'ANU School of Computing, Canberra, ACT, Australia',
+    title: 'Casual Software Engineer',
     content: (
       <p>
-        In sapiente modi vel quasi autem eos consectetur laboriosam! 
-        Est atque dolorem ut praesentium doloribus et facere facere non consequatur 
-        consequatur.
+        Engaging in a project for early detection of ovarian cancer, transforming a machine learning pipeline into a user-friendly software tool for use by medical professionals at the University of Queensland and National University of Singapore. <br/>
+        <strong>· Microservices</strong>: Design and implement modular microservices, including Machine Learning Service API Endpoints; Message Queue Middleware; User Authentication Services, and Notification Service <br/>
+        <strong>· Containerization</strong>: Utilize <strong>Docker</strong> to containerize applications, and simplify dependencies config like <strong>PostgreSQL</strong>, <strong>PgAdmin</strong>, and <strong>Kafka</strong> with <strong>Docker Compose</strong>.
       </p>
     ),
   },
   {
-    date: 'March 2015 - February 2018',
-    location: 'Garage Startup Studio',
-    title: 'Junior Bug Fixer',
+    date: 'Jul 2023 – Dec 2023',
+    location: 'Australian National University, Canberra, ACT, Australia',
+    title: 'Software Engineering Academic Tutor',
     content: (
       <p>
-        Et vitae quasi aut dicta voluptas a alias neque aut saepe aliquam. 
-        Sed aspernatur unde et dolores enim et exercitationem repellendus ut iste 
-        nulla qui expedita aliquid vel magni alias At repellat illo. 
-        Est officiis illo id nostrum iste non autem enim.
+        As a Casual Sessional Academic at ANU CECC for the course Software Engineering (COMP2120/6210), I help organize and deliver tutorials in collaboration with course convenors and fellow tutors. <br/>
+        Playing a pivotal role in guiding students through group projects and providing practical insight into the principles of modern software development tech stacks including <strong>Git</strong>, <strong>CI/CD</strong> with <strong>Docker</strong>, <strong>DevOps</strong>, and <strong>Microservices</strong>.
       </p>
     ),
   },
   {
-    date: 'May 2013 - Present',
-    location: 'Netflix, Los Gatos, California, US',
-    title: 'Account Manager',
+    date: 'Jul 2023 – Nov 2023',
+    location: 'UnicornShift, Canberra, ACT, Australia',
+    title: 'Software Engineer Intern',
     content: (
       <p>
-        Responsible for managing (and paying for) accounts shared by 5 globally distributed family members.
-        Exceeded market benchmarks by typing passwords using Roku remote at 481% accuracy or more significance.
-        Multi-year recipient of suggestions for movies I've already watched.
+        Joined UnicornShift as a remote full-stack engineer intern, where I played a pivotal role in developing a web application that provides tech solutions to bridge the gap between local construction companies and traffic controllers. <br/>
+        <strong>· Frontend</strong>: Use <strong>React</strong>, <strong>Next.js</strong>, and <strong>Typescript</strong> to create the frontend of a web application for admin staff, construction clients, and traffic control suppliers. I design and deploy reusable UI components and dynamic pages, notably a Location Picker integrating <strong>Google Map APIs</strong> while ensuring component integrity with <strong>Storybook</strong> UI testing. <br/>
+        <strong>· Backend</strong>: Use <strong>Node.js</strong> for backend development, contributing to scalable and efficient server-side solutions. Developed <strong>GraphQL API</strong> endpoints with <strong>Apollo GraphQL</strong>. <br/>
+        <strong>· Deployment</strong>: Skillfully configured <strong>MySQL</strong> schemas and orchestrated pub/sub triggered cloud functions within <strong>Google Cloud Platform (GCP)</strong>.
       </p>
     ),
   },
   {
-    date: 'April 2011 - Present',
-    location: 'Apple Inc. Cupertino, California, US',
-    title: 'Uncertified Genius',
+    date: 'Feb 2023 – Jun 2023',
+    location: 'Contour Advisory, Canberra, ACT, Australia',
+    title: 'Full Stack Developer Intern',
     content: (
       <p>
-        Led remote tech support for older family members throughout the country.
-        Maintained Siri comprehension rate of over 55% for three consecutive years.
-        Once put off a software update for over 8 months.
-      </p>
-    ),
-  },
-  {
-    date: 'Augest 2009 - Present',
-    location: 'Amazon, Seattle, Washington, US',
-    title: 'Prime Member',
-    content: (
-      <p>
-        Increased order volume by 823% over 7 years
-        Researched diverse product catalog, spanning departments from Simplehuman bag liners to cat food.
-        Regularly reported on product quality using review portal.
-      </p>
-    ),
-  },
-  {
-    date: 'March 2002 - Present',
-    location: 'Facebook, Menlo Park, California, US',
-    title: 'Senior Advertising Target',
-    content: (
-      <p>
-        Recruited as early user for my experience with having an @edu email address.
-        Received a "Facebook Beanie" award for performance in 2006 March Madness bracket.
-        Consistently retargeted by F500 brands such as Samsung, Proctor & Gamble, and Verizon.
+        Joined the ANU TechLauncher program, and developed a web application that allows users to submit their qualifications and mint them into NFTs for the client. <br/>
+        <strong>· Frontend</strong>: Crafted a dynamic and responsive NFT mint list page for users using <strong>React</strong>, enhancing the user experience with a streamlined design; <br/>
+        <strong>· Backend</strong>: Utilized the <strong>Spring Boot</strong> framework for Java-based applications, incorporating <strong>Spring Security JWT</strong> for robust user authentication; Designed <strong>RESTful API</strong> endpoints to ensure communication between the frontend and backend; Experienced in developing data storage layer services using decentralized <strong>IPFS</strong> storage.
       </p>
     ),
   },
 ];
+
+
 
 /**
  * Testimonial section
@@ -380,19 +302,11 @@ export const testimonial: TestimonialSection = {
   imageSrc: testimonialImage,
   testimonials: [
     {
-      name: 'Satoshi Catamoto',
-      text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ',
-      image: 'https://cdn.commercialandlegal-legalservices.com.au/wp-content/uploads/2018/03/Unknown-Person-Image-1-e1562653526174.png',
-    },
-    {
-      name: 'Trevor Philips',
-      text: 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/116.jpg',
-    },
-    {
-      name: 'Ms. Unknown',
-      text: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/169.jpg',
+      name: 'Ramesh Kithsiri',
+      title: 'Software Engineer at UnicornShift',
+      date: 'October 3, 2023',
+      text: 'I worked with Jeremiah for 4-5 months. He helped us to deliver the features before deadlines. Jeremiah is more enthusiastic in frontend tech stacks like ReactJS, NextJS. Jeremiah also contributed to backend projects built using NodeJS and Apollo Server in same time. He proposed unique ideas to improve the products and brought those ideas into reality by drafting UX designs.',
+      image: 'https://media.licdn.com/dms/image/D5603AQG9oDBdQ09Vvg/profile-displayphoto-shrink_100_100/0/1668428242841?e=1724889600&v=beta&t=1NZBoTF-HNCw1duRgqZ3d2P2WBNV4jozizhAWUMBHc0', // Replace with the correct path to Ramesh's image if available
     },
   ],
 };
@@ -400,7 +314,6 @@ export const testimonial: TestimonialSection = {
 /**
  * Contact section
  */
-
 export const contact: ContactSection = {
   headerText: 'Get in touch.',
   description: 'Share any details about your ideas, or any other information you would like to share with potential clients/employees/partners/friends.',
@@ -416,14 +329,9 @@ export const contact: ContactSection = {
       href: 'https://www.google.com/maps/place/Canberra+ACT+2601/@-35.2842178,149.1191194,15.23z',
     },
     {
-      type: ContactType.Instagram,
-      text: '@jez_hsing',
-      href: 'https://www.instagram.com/jez_hsing/',
-    },
-    {
       type: ContactType.Github,
-      text: 'Jeremiah Hsing',
-      href: 'https://github.com/JeremiahXing',
+      text: 'Github',
+      href: 'https://github.com/jrmhx',
     },
   ],
 };
@@ -432,9 +340,9 @@ export const contact: ContactSection = {
  * Social items
  */
 export const socialLinks: Social[] = [
-  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/JeremiahXing'},
+  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/jrmhx'},
   // {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
-  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/jeremiahhsing/'},
-  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/jez_hsing/'},
-  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/jez_hsing'},
+  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/jrmhx/'},
+  // {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/jez_hsing/'},
+  // {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/jez_hsing'},
 ];
