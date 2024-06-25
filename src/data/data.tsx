@@ -59,11 +59,11 @@ export type SectionId = typeof SectionId[keyof typeof SectionId];
  */
 export const heroData: Hero = {
   imageSrc: heroImage,
-  name: `I'm Jeremiah Xing.`,
+  name: `I'm Jeremiah Xing,`,
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Canberra based Software Enginee.
+        <strong>a Canberra based Software Enginee</strong>.
       </p>
     </>
   ),
